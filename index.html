@@ -32,100 +32,275 @@
     <title>AeroNubes</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
-      rel="stylesheet"
-    />
   </head>
-  <!-- Barra de navegacion -->
-  <nav class="navbar navbar-expand-md navbar-ligth">
-    <div class="container-fluid">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbar-toggler"
-        aria-controls="navbarTogglerDemo01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-toggler">
-        <a class="navbar-brand" href="#">
-          <img src="img/plane.png" width="50" alt="Logo de la pagina web" />
-        </a>
-        <ul class="navbar-nav d-flex justify-content-center align-items-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Vuelos.html">Vuelos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Usuarios.html">Usuario</a>
-          </li>
-        </ul>
+  <body class="" style="height: 100%">
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-ligth">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="img/plane.png" width="50" alt="Logo de la pagina web" />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Vuelos.html">Vuelos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Usuarios.html">Usuario</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container align-items-center"></div>
+
+    <section class="bg-light text-dark p-5 p-lg-0 text-center">
+      <!-- pt-lg-1 text-sm-start -->
+
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-center my-5">
+          <div1>
+            <h1 class="text-primary px-5">Aeronubes</h1>
+
+            <p class="my-4 fs-3"><i>Freedom </i></p>
+          </div1>
+
+          <div2
+            id="carouselExampleAutoplaying"
+            class="carousel slide w-50"
+            style="height: 50%; display: flex;"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active h-50" >
+                <img
+                  src="img\plane11.jpg"
+                  class="d-flex w-auto img-fluid "
+                  style="object-fit: cover; width: 100%;"
+                  alt="..."
+                />
+              </div>
+
+              <div class="carousel-item h-50">
+                <img
+                  src="img\plane2.jpg"
+                  class="d-flex w-auto img-fluid"
+                  style="object-fit: cover; width: 100%"
+                  alt=" ..."
+                />
+              </div>
+
+              <div class="carousel-item h-50">
+                <img
+                  src="img\plane3.jpg"
+                  class="d-flex w-auto img-fluid"
+                  style="object-fit: cover; width: 100%"
+                  alt=" ..."
+                />
+              </div>
+            </div>
+          </div2>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">  
+      <div class="p-5 rounded-2 my-2" style="background-color: #a5cdf6;">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-md-2 text-center">
+            <h2>Destinos mas populares</h2>
+            <br>
+          </div>
+        </div>
+        <div class="row">
+  
+          <div class="col-lg-4 col-md-4 col-sm-6">
+     
+              <img src="img\cali3.jpg" alt="Image" class="imgc img-responsive img-fluid  px-2" style="border-radius: 5%;">
+              
+              <div class="fh5co-text">
+                <h3>Cali, Colombia</h3>
+                <p><span class="btn btn-secondary">Programa tu viaje</span></p>
+              </div>
+            
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+               
+                <img src="img\medellin2.jpg" alt="Image" class="imgc img-responsive img-fluid px-2" style="border-radius: 5%;">
+              
+                <div class="fh5co-text">
+                  <h3>Medellin, Colombia</h3>
+                  <p><span class="btn btn-secondary">Programa tu viaje</span></p>
+                </div>
+            
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+             
+                <div class="overlay"><i class=" ti-plus"></i></div>
+                <img src="img\cartagena2.jpg" alt="Image" class="imgc img-responsive img-fluid  px-2" style="border-radius: 5%;">
+            
+              <div class="fh5co-text">
+                <h3>Cartagena, Colombia</h3>
+                <p><span class="btn btn-secondary">Programa tu viaje</span></p>
+              </div>
+            
+          </div>
+  
+        </div>
+      </div>
+    
+  </section>
+
+  <section class="container my-sm-5 my-5">
+    <div class="row">
+      <h2>Por que viajar con AeroNubes</h2>
+    </div>
+    <div class="row">
+      <div class="card col-3" style="border: none;">
+        <div class="card-body">
+          <i class="bi bi-piggy-bank" style="font-size: 4em; color: #4598eb;"></i>
+          <h5 class="card-title" >Precios Bajos</h5>
+          <p class="card-text">
+            Ahorra volando en la mejor aerolínea bajo costo de Colombia.
+          </p>
+          <a href="#" class="card-link">Ver mas</a>
+
+        </div>
+      </div>
+      <div class="card col-3" style="border: none;">
+        <div class="card-body">
+          <i class="bi bi-emoji-smile" style="font-size: 4em; color: #4598eb;"></i>
+          <h5 class="card-title">Buena onda</h5>
+          <p class="card-text">
+            Somos flexibles y buena onda para que vueles sin preocupaciones.
+            Descubre que es posible volar feliz sin pagar de más.
+          </p>
+          <a href="#" class="card-link">Ver mas</a>
+
+        </div>
+      </div>
+      <div class="card col-3" style="border: none;">
+        <div class="card-body">
+          <i class="bi bi-patch-check" style="font-size: 4em; color: #4598eb;"></i>
+          <h5 class="card-title">Vuelos siempre seguros</h5>
+          <p class="card-text">
+            Nuestra principal prioridad eres tú. Por esto, contamos con,
+            aeronaves modernas y altos estándares de mantenimiento para que
+            siempre vueles tranquilo
+          </p>
+          <a href="#" class="card-link">Ver mas</a>
+
+        </div>
+      </div>
+      <div class="card col-3" style="border: none;">
+        <div class="card-body">
+          <i class="bi bi-stopwatch" style="font-size: 4em; color: #4598eb;"></i>
+          <h5 class="card-title">Puntualidad</h5>
+          <p class="card-text">
+            En AeroNubes, te llevamos a tiempo a tu destino para que no
+            pierdas ni un minuto de tu viaje.
+          </p>
+          <a href="#" class="card-link">Ver mas</a>
+        </div>
       </div>
     </div>
-  </nav>
-
-  <div class="container"></div>
-
-  <!-- Pie de pagina (footer) -->
-  <footer
-    class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
-  >
-    <p class="footer-texto text-center">
-      Aprendo y creo todos los días.<br />Creemos un proyecto juntos.
-    </p>
+  </section>
+  <section class="container py-md-2 py-3 my-sm-3 my-2">
     <div
-      class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      class="d-flex px-sm-0 px-md-3 rounded-2"
+      style="
+        background-color: rgb(149, 121, 176);
+        align-items: center;
+        justify-content: center;
+      "
     >
-      <a
-        href="https://twitter.com/freecodecampES"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="bi bi-twitter"></i>
-      </a>
-      <a
-        href="https://github.com/freeCodeCamp/freeCodeCamp"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="bi bi-github"></i>
-      </a>
-      <a
-        href="https://www.linkedin.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="bi bi-linkedin"></i>
-      </a>
-      <a
-        href="https://www.instagram.com/freecodecamp/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="bi bi-instagram"></i>
-      </a>
-      <a
-        href="mailto:janedoe@micorreo.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="bi bi-envelope"></i>
-      </a>
+      <img
+        class="container-fluid"
+        src="img\tarjeta.png"
+        alt="tarjeta"
+        style="max-height: 200px; max-width: 200px"
+      />
+      <div class="overflow-x-hidden">
+        <h3 class="text-left">
+          ¡Hasta un 40% de descuento en tus vuelos! Pide hoy tu AeroNubes PASS
+        </h3>
+        <a href="#" style="text-decoration: none; color: blue">Solicita ya</a>
+      </div>
     </div>
-    <div class="derechos-de-autor">Creado por Jane Doe (2022) &#169;</div>
-  </footer>
-  <body></body>
+  </section>
+
+
+    <!-- Pie de pagina (footer) -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+      style="height: 100%"
+    >
+      <p class="footer-texto text-center">
+        Aprendo y creo todos los días.<br />Creemos un proyecto juntos.
+      </p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://twitter.com/freecodecampES"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a
+          href="https://github.com/freeCodeCamp/freeCodeCamp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/freecodecamp/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="mailto:janedoe@micorreo.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Jane Doe (2022) &#169;</div>
+    </footer>
+  </body>
 </html>
